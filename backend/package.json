@@ -1,0 +1,22 @@
+{
+  "name": "mini-project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "creating this project for company",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
